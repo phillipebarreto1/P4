@@ -1,0 +1,94 @@
+<!-- DEVELOPER: Phillipe Barreto, IS117-006, Spring 2023-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phillipe's Project Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/portfolio.png" height="40" alt="portfolio logo"> Phillipe's Portfolio
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-primary">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <!-- dropdown-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pro1.html">Capstone Project</a></li>
+                  <li><a class="dropdown-item" href="pro2.html">Watch Store</a></li>
+                  <li><a class="dropdown-item" href="pro3.html">Server Calculations</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">About Me
+                </a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="col-xl-7 d-flex aligns-items-center justify-content-center text-center mx-auto">
+        <div class="card">
+          <div class="card-body ">
+            
+            <h3 class="mb-4">Android Server Calculator</h3>
+            <div class="row">
+              
+              <div class="mx-auto">
+                <div class="card mb-3">
+                  
+                  <div class="card-body">
+                    <p class="card-text"> This project required 2 seperate programs to run simultaneously. The first part was to program a server that an android app would socket to. In the
+                        server, there are defined methods that act as operations for big numbers.
+                    </p>
+                      
+                  </div>
+                  <img src="images/server1.png" class="card-img" alt="Server1"> 
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"> For the second part of the project, the client will ask a user to input the domain and port # to connect to the main activity
+                        where it will then prompt the user to use a specific operation and two numbers. The client will send those three lines to the server and use them to calculate that 
+                        operation. Finally, the server will send back the corrrect answer or validation error to the client.
+                    </p>
+                      
+                  </div>
+
+                </div>
+                <img src="images/server2.png" class="card-img" alt="Server2"> 
+                </div>
+
+              </div>
+              <footer class ="footer page-footer font-small text-center">
+                <div class ="container">
+                    <div class ="row">
+                        <span class="text-muted"> &copy; Phillipe Barreto  |  Terms of Use  |  Privacy Statement</span>
+                    </div>
+                </div>
+            </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* DEVELOPER: Phillipe Barreto, IS117-006, Spring 2023 */
+.carousel-item img{
+    width: 50px;
+    height: 230px;
+    max-height: 250px;
+    margin: auto; 
+    display: block;
+    }
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: .8rem;
+    }
+    
